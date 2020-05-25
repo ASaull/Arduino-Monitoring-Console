@@ -3,6 +3,9 @@
 This program uses a "server" program running on a Linux or Windows PC and a "cilent" program running on an Arduino to display system
 CPU, RAM, and GPU usage as percentages on analogue panel metres over a USB port.
 
+The following video demonstrates the program's monitoring capabilities on an early prototype console:
+[![Arduino Monitoring Console in action](https://img.youtube.com/vi/6fXX2ctK7Mc/0.jpg)](https://www.youtube.com/watch?v=6fXX2ctK7Mc)
+
 ### Installing
 
 The file arduino_rom/arduino_rom.ino should be opened in the Arduino IDE and uploaded to the Arduino. Pins should be connected to the Arduino as indicated:
