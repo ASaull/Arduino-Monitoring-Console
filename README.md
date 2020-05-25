@@ -17,7 +17,10 @@ You should install the following Python libraries:
  - [GPUtil](https://github.com/anderskm/gputil)
 
 There is no ui on the PC side for now, so you must manually set the serial ports at the top of console_controller.py based on the port that the Arduino IDE gives
- 
+
+### First time setup
+After running the program for the first time according to the following section, if you wish to use the mute function with Discord or another program that uses keybinds to perform an action, you must set the keybind as you would normally in that application by pressing your mute switch off then on briefly which will register an f16 keypress.
+
 ### Running
 ##### Linux
 With your Arduino connected, run console_controller.py with the following command:
