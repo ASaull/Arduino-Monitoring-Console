@@ -7,9 +7,13 @@ import GPUtil
 
 os = ''
 
+# Change these serial ports to the ports where your Arduino is connected
+windowsSerial = 'COM3'
+linuxSerial = '/dev/ttyACM0'
+
 if sys.platform.startswith('win32'):
     os = 'windows'
-    ser = serial.Serial('COM3')
+    ser = serial.Serial(windowsSerial)
     from ctypes import cast, POINTER
     from comtypes import CLSCTX_ALL
     from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume

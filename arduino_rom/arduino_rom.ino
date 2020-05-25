@@ -3,7 +3,6 @@
 // constant locations of pins
 const int audio_pin = 3;
 const int mute_pin = 2;
-//const int ledPin = 13;       // the pin that the LED is attached to
 const int cpu_pin = 11;
 const int ram_pin = 10;
 const int gpu_pin = 9;
