@@ -1,7 +1,7 @@
 # Arduino-Monitoring-Console
 
 This program uses a "server" program running on a Linux or Windows PC and a "cilent" program running on an Arduino to display system
-CPU, RAM, and GPU usage as percentages on analogue panel metres. It 
+CPU, RAM, and GPU usage as percentages on analogue panel metres over a USB port.
 
 ### Installing
 
