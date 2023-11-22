@@ -18,6 +18,8 @@ You should install the following Python libraries:
  - pyserial
  - psutil
  - pynput
+ - comtypes
+ - pycaw
  - [GPUtil](https://github.com/anderskm/gputil)
 
 There is no ui on the PC side for now, so you must manually set the serial ports at the top of console_controller.py based on the port that the Arduino IDE gives
