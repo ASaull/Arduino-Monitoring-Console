@@ -17,6 +17,7 @@ The file arduino_rom/arduino_rom.ino should be opened in the Arduino IDE and upl
 You should install the following Python libraries:
  - pyserial
  - psutil
+ - pynput
  - [GPUtil](https://github.com/anderskm/gputil)
 
 There is no ui on the PC side for now, so you must manually set the serial ports at the top of console_controller.py based on the port that the Arduino IDE gives
